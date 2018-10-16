@@ -9,7 +9,7 @@
       "type": "com.ibm.customizer.ui",
       "path": "homepage",
       "payload": {
-        "include-files": ["setSocialHomepage/setSocialHomepage.js"],
+        "include-files": ["setSocialHomepage.js"],
         "include-repo": {
           "name": "set-orientMe-as-homepage"
         }
