@@ -1,0 +1,19 @@
+{
+  "name": "Set Social Homepage",
+  "title": "Set Social Homepage",
+  "description": "Automatically change the default homepage to Social",
+  "services": ["Customizer"],
+  "extensions": [
+    {
+      "name": "Set Social Homepage Extension",
+      "type": "com.ibm.customizer.ui",
+      "path": "homepage",
+      "payload": {
+        "include-files": ["setSocialHomepage/setSocialHomepage.js"],
+        "include-repo": {
+          "name": "set-orientMe-as-homepage"
+        }
+      }
+    }
+  ]
+}
